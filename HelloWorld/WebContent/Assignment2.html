@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body style= "background-color:blue;">
+
+<h1 style="color: red;text-align: center;">Art School</h1>
+<h2>Festival Schedule</h2>
+<table style ="width:10%">
+	<tr>
+		<th>Time</th>
+		<th>Topic</th>
+	</tr>
+	<tr>
+		<td>5-6</td>
+		<td>Registration</td>
+	</tr>
+	<tr>
+		<td>6-8</td>
+		<td>Key Note</td>
+	</tr>
+</table>
+<hr>
+<h3>SignUp!</h3>
+<form action="Assignment2" method="post">
+	<label>Name:</label>
+	<input type= "text" name= "username" id="username"><br><br>
+	<label>Email:</label>
+	<input type= "Email" name="Email" id="Email"><br><br>
+	<label>Location:</label>
+	<select name="Location">
+		<option value= "USA">USA</option>
+		<option value="UK">UK</option>
+		<option value="india">India</option>
+	</select><br><br>
+	<label>Gender</label>
+	<input type="radio" name="Gender" value="Male" checked>Male
+	<input type="radio" name="Gender" value="FeMale">Female<br><br>
+	<label> Days:</label>
+	<input type="checkbox" name="days" value="monday">Sunday<br>
+	<input type="checkbox" name="days" value="monday">Monday<br>
+	<input type="checkbox" name="days" value="monday">Tuesday<br>
+	<input type="checkbox" name="days" value="monday">Wednesday<br>
+	<input type="checkbox" name="days" value="monday">Thursday<br>
+	<input type="checkbox" name="days" value="monday">Friday<br>
+	<input type="checkbox" name="days" value="monday">Saturday<br>
+	<label>Experience</label>
+	<textarea name= "text" rows="5" cols= "10"></textarea><br><br>
+	<input type="submit" value="submit" name="Submit" id= "Submit">
+</form>
+</body>
+</html>

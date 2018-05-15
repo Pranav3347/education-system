@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body><p id="sample1">Example1</p>
+<button onclick = "document.getElementById('sample1').innerHTML='Example2'"></button>
+<p id="sample2">Example1</p>
+<button value="submit" onclick = "document.getElementById('sample2').style.fontSize='50px'">sample</button>
+<!-- <img src="C:\Users\Pranav Patel\Desktop\New folder\pranav.jpg" id ="sample"></img>
+<button onclick ="document.getElementById('sample').src='https://images.pexels.com/photos/248797/pexels-photo-248797.jpeg?auto=compress&cs=tinysrgb&h=350'">Change Image</button>
+ -->
+ <button onclick="add()"> ADD</button>
+ <script>
+
+function add(){
+	/* var x =10, y =20;
+	var z = x+y;
+	document.write(z);
+	alert(z); */
+	var value = "My name is Pranav";
+	//alert(value.length);
+	alert(value.search("Pranav"));
+	alert(slice("My name"));
+	
+}
+</script>
+
+</body>
+</html>

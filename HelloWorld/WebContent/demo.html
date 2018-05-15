@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src= "JS/jquery.js"></script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+$(document).ready(function (){
+	$("#sample").css("background-color","red");
+	$("#be").click(function (){
+		alert($("#uname").val());
+		//$("#sample").hide();
+	});
+});
+</script>
+<!-- <p id="sample">Hello world</p>
+<p>name<input type="text" id="uname">
+</p>
+<button id= "be" > button</button> -->
+<p></p>
+<select id="s1">
+<option >cars</option>
+<option >buses</option>
+<option >bikes</option>
+</select>
+<script>
+function displayVal(){
+	var singleval = $("#s1").val();
+	//alert("value"+ singleval);
+	$("p").html("value"+ singleval);
+}
+$("select").change(displayVal);
+displayVal();
+</script>
+ 
+
+
+
+</body>
+</html>
