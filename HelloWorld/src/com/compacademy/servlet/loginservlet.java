@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.compacademy.BA.ViewBA;
 import com.compacademy.BA.loginBA;
 
 /**
@@ -55,8 +56,8 @@ public class loginservlet extends HttpServlet {
 		//}
 		//PrintWriter writer=response.getWriter();
 			//	writer.println("<html><head></head><body>"+username+"is logged in sucessfully"+"</body></html>");
-		loginBA  lba= new loginBA();
-		lba.LoginBA(username, password);
+		ViewBA  lba= new ViewBA();
+		lba.loginBAO(username, password);
 		
 	}
 
