@@ -5,7 +5,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Learning bootstrap</title>
+<title>Education System</title>
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <script type="text/javascript" src ="js/jquery.js"></script>
 <script type="text/javascript" src = "js/bootstrap.min.js"></script>
@@ -30,8 +30,9 @@ h1{
 </head>
 <body>
 <div id="div1">
+
 <table>
-<tr><td><img src="C:\Users\Pranav Patel\Desktop\picture\images.jpg" width="200" height="200"></td><td><h1>Education system</h1></td>
+<tr><td><img src="C:\Users\Pranav Patel\Desktop\picture\images.jpg" width="200" height="150"></td><td><h1>Education system</h1></td>
 </table>
 </div>
 <div class="row" id="div2">

@@ -1,23 +1,43 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Education System</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<script type="text/javascript" src ="js/jquery.js"></script>
+<script type="text/javascript" src = "js/bootstrap.min.js"></script>
 <style type="text/css">
-h1{
-background-color:lightblue;
+#div1{
+ 	border: 1px solid white;
+	margin-right: 10%;
+    margin-left: 10%;
+    background-color : lightblue;
+
 }
-div{
-align : center;
-width : 100%;
+#div2{
+	border: 1px solid black;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: white;
+	padding: 10%;
+	padding-left : 10%;
+}
+h1{
+	color:blue;
 }
 </style>
 </head>
 <body>
-<h1> Registration Page</h1>
-<div  title="Registration" style="padding:10px">
+<a href="index.jsp">
+<div id="div1">
+<table>
+<tr><td><img src="C:\Users\Pranav Patel\Desktop\picture\images.jpg" width="200" height="150"></td><td><h1>Registration</h1></td>
+</table>
+</div></a>
+
+<div id="div2">
    <table>
 	<tr>
 	<td>Student ID:</td>
@@ -25,31 +45,27 @@ width : 100%;
 	</tr>
 	<tr>
 	<td>First Name:</td>
-	<td><input type="text" name="position" id="position"></td>
+	<td><input type="text" name="firstname" id="firstname"></td>
 	</tr>
 	<tr>
 	<td>Last Name:</td>
-	<td><input type="text" name="location" id="location"></td>
+	<td><input type="text" name="lastname" id="lastname"></td>
 	</tr>
 	<tr>
 	<td>Address:</td>
-	<td><input type="text" name="payrate" id="payrate"></td>
+	<td><input type="text" name="address" id="address"></td>
 	</tr>
 	<tr>
 	<td>City:</td>
-	<td><input type="text" name="cname" id="cname"></td>
+	<td><input type="text" name="city" id="city"></td>
 	</tr>
 	<tr>
 	<td>State:</td>
-	<td><input type="text" name="Location" id="Location"></td>
+	<td><input type="text" name="State" id="State"></td>
 	</tr>
 	<tr>
 	<td>Zipcode:</td>
-	<td><input type="text" name="Location" id="Location"></td>
-	</tr>
-	<tr>
-	<td>State:</td>
-	<td><input type="text" name="Location" id="Location"></td>
+	<td><input type="text" name="zipcode" id="zipcode"></td>
 	</tr>
 	<tr>
 	<td>Email:</td>
